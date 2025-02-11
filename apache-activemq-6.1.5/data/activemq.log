@@ -1,0 +1,29 @@
+2025-02-11 23:29:32,262 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[G:\Demo Project\ActiveMQ\apache-activemq-6.1.5\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-02-11 23:29:32,272 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[G:\Demo Project\ActiveMQ\apache-activemq-6.1.5\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-02-11 23:29:32,305 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-02-11 23:29:32,306 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-02-11 23:29:32,541 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-02-11 23:29:32,545 | INFO  | PListStore:[G:\Demo Project\ActiveMQ\apache-activemq-6.1.5\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-02-11 23:29:32,548 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-02-11 23:29:32,555 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-02-11 23:29:32,725 | INFO  | Apache ActiveMQ 6.1.5 (localhost, ID:Sourabhs-1Companion-57413-1739296772577-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-02-11 23:29:32,755 | INFO  | Listening for connections at: tcp://Sourabhs-1Companion:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-02-11 23:29:32,756 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-02-11 23:29:32,762 | INFO  | Listening for connections at: amqp://Sourabhs-1Companion:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-02-11 23:29:32,763 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-02-11 23:29:32,769 | INFO  | Listening for connections at: stomp://Sourabhs-1Companion:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-02-11 23:29:32,776 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-02-11 23:29:32,788 | INFO  | Listening for connections at: mqtt://Sourabhs-1Companion:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-02-11 23:29:32,792 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-02-11 23:29:32,802 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-02-11 23:29:32,878 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-02-11 23:29:33,046 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@268cbb86{/,null,STARTING} has uncovered HTTP methods for the following paths: [/] | org.eclipse.jetty.security.SecurityHandler | main
+2025-02-11 23:29:33,259 | INFO  | Listening for connections at ws://Sourabhs-1Companion:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-02-11 23:29:33,263 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-02-11 23:29:33,263 | INFO  | Apache ActiveMQ 6.1.5 (localhost, ID:Sourabhs-1Companion-57413-1739296772577-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-02-11 23:29:33,265 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-02-11 23:29:33,276 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: G:\Demo Project\ActiveMQ\apache-activemq-6.1.5\bin\..\data\kahadb only has 16273 mb of usable space. - resetting to maximum available disk space: 16273 mb | org.apache.activemq.broker.BrokerService | main
+2025-02-11 23:29:33,280 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: G:\Demo Project\ActiveMQ\apache-activemq-6.1.5\bin\..\data only has 16273 mb of usable space. - resetting to maximum available disk space: 16273 mb | org.apache.activemq.broker.BrokerService | main
+2025-02-11 23:29:34,278 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-02-11 23:29:34,284 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-02-11 23:45:48,430 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1654015823-64
